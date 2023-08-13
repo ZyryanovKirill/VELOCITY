@@ -71,6 +71,7 @@ a {
 	letter-spacing: 7px;
 	text-transform: uppercase;
 	margin-bottom: 15px;
+	height: 40px;
 }
 
 .section__text {
@@ -80,6 +81,8 @@ a {
 	line-height: 25px;
 	margin-bottom: 25px;
 	padding: 0 15px;
+	margin-top: auto;
+	padding-top: 20px;
 }
 
 /*---------------------Стили шапки----------------------*/
@@ -168,7 +171,6 @@ a {
 .services__list {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	margin-top: 60px;
 	gap: 50px;
 }
@@ -176,7 +178,6 @@ a {
 .services__list-item {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 

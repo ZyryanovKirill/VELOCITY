@@ -1,0 +1,192 @@
+@media (max-width: 992px) {
+	.card__img {
+		max-width: 550px;
+		min-height: 300px;
+		object-fit: cover;
+	}
+
+	.about__link {
+		width: 180px;
+	}
+
+	.services__img {
+		max-width: 350px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about__inner {
+		flex-wrap: wrap;
+		justify-content: start;
+		gap: 30px 100px;
+	}
+
+	.services__img {
+		max-width: 100%;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 660px) {
+	.about__inner {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about__title {
+		text-align: center;
+	}
+
+	.about__link {
+		width: 270px;
+	}
+
+	.about__text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.top__title {
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+
+	.title {
+		font-size: 24px;
+	}
+
+	.subtitle {
+		font-size: 14px;
+	}
+
+	.section__title {
+		font-size: 16px;
+	}
+
+	.section__text {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.tabs__btn {
+		margin-top: 40px;
+	}
+
+	.card__img {
+		max-width: 450px;
+		min-height: 350px;
+	}
+
+	.tabs__btn-item {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 450px) {
+	.card__img {
+		max-width: 350px;
+		min-height: 250px;
+	}
+
+	.top {
+		padding-top: 100px;
+		padding-bottom: 150px;
+	}
+
+	.top__title {
+		font-size: 32px;
+	}
+
+	.link {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+
+	.menu__list {
+		gap: 10px;
+	}
+
+	.section__title {
+		font-size: 12px;
+		line-height: 15px;
+		letter-spacing: 4px;
+	}
+
+	.section__text {
+		font-size: 10px;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+
+	.subtitle {
+		font-size: 12px;
+	}
+
+	.occupation__list-item {
+		margin-top: 30px;
+	}
+
+	.occupation__list {
+		gap: 10px;
+		flex-direction: column;
+	}
+
+	.occupation__img {
+		padding-top: 10px;
+	}
+
+	.menu__list-link {
+		font-size: 12px;
+	}
+
+	.occupation__list-item {
+		max-width: 200px;
+	}
+
+	.section {
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+
+	.services__list {
+		flex-direction: column;
+	}
+
+	.tabs__btn-item {
+		font-size: 10px;
+		padding: 1px 15px;
+	}
+
+	.tabs__btn {
+		margin-bottom: 20px;
+	}
+
+	.footer__copy {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 340px) {
+	.top__title {
+		font-size: 24px;
+		margin-bottom: 25px;
+	}
+
+	.card__img {
+		max-width: 250px;
+		min-height: 150px;
+	}
+
+	.tabs__btn-item {
+		font-size: 8px;
+	}
+
+	.services__list {
+		margin-top: 20px;
+	}
+}

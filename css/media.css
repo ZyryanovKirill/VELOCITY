@@ -169,6 +169,14 @@
 	.footer__copy {
 		font-size: 12px;
 	}
+
+	.section__text {
+		padding-top: 0px;
+	}
+
+	.section__title {
+		margin-bottom: -10px;
+	}
 }
 
 @media (max-width: 340px) {
